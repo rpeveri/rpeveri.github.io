@@ -20,10 +20,10 @@ $(function() {
 			left = e.pageX+20;
 			
 			if (top + ttHeight > winHeight) {
-				top = winHeight - ttHeight - 80;
+				top = winHeight - ttHeight - 40;
 			}			
 			if (left + ttWidth > winWidth) {
-				left = winWidth - ttWidth - 80;
+				left = winWidth - ttWidth - 40;
 			}	
 
 		$('div.rp-child', this).css({top:top, left:left});
