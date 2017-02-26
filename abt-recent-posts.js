@@ -16,8 +16,8 @@ $(function() {
 	$('div.rp-item').css('position', 'static').mouseenter(function() {
 		$('div.rp-child', this).filter(':not(:animated)').fadeIn(rcFadeSpeed);
 	}).mousemove(function(e) {	
-		var top  = e.pageY+40,
-			left = e.pageX+40;
+		var top  = e.pageY+20,
+			left = e.pageX+20;
 			
 			if (top + ttHeight > winHeight) {
 				top = winHeight - ttHeight - 40;
