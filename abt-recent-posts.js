@@ -76,12 +76,12 @@ document.write('<div id="post-gallery"><h2>' + rpTitle + '</h2><sc' + 'ript src=
 
 var i = 0, int=0;
 $(window).bind("load", function() {
-	var int = setInterval("doThis(i)",200);
+	var int = setInterval("doThis(i)",1);
 });
  
 function doThis() {
 	var imgs = $('div.rp-item img').length;
 	if (i >= imgs) {clearInterval(int);}
-	$('div.rp-item img:hidden').eq(0).fadeIn(200);
+	$('div.rp-item img:hidden').eq(0).fadeIn(1);
 	i++;
 }
