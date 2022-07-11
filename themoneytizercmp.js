@@ -1,5 +1,3 @@
-<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
-<script type="text/javascript" async=true>
 (function() {
   var host = 'www.themoneytizer.com';
   var element = document.createElement('script');
@@ -158,5 +156,3 @@
     var uspInterval = setInterval(checkIfUspIsReady, 6000);
   }
 })();
-</script>
-<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
