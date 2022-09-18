@@ -1,50 +1,117 @@
+#outer-wrapper {
+  width:960px
+}
 #main-wrapper {
-  width:960px;
+  width:680px;
+  margin:0 10px 0 0;
+  border-left:1px solid #eee;
+  padding-left:15px;
 }
-.post {
-  width:310px;
-  height:236px;
+#post-header-top {
+  border-bottom:1px solid #ddd;
+  margin-bottom:20px;
+  padding-left:40px;
+}
+.date-post-top-wrapper {
   float:left;
-  padding:0;
-  margin:5px;
-  border-bottom:none;
-  border-top:1px solid #fff;
-  background:#fff;
+  margin-right:10px;
 }
-.post-body {
-  margin:0 0 .75em;
-  line-height:1.6em;
-  font:11px Arial;
-  text-align:justify;
-  background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQRBiSVxEFDk8fCDpRwgAPvLFWm3ftMMMLUyFQ5DEldJbMi88bxKkSLTZUwKuvWluU_4Gh0CB6IgoM752ZJTskbAcarMbaVEE83cTF0KYfJ1nvS0HsL6l6HM9EuppemugT2BMawpGJY2RIL_zTxsIz8N_4PNlaWw0OXS7ULMXDHrG8AlQHNCxMArECuA/s109/play.png) bottom center no-repeat #ffffff;
+.date-container {
+  width:auto;
+  height:auto;
+  text-align:center;
+  border-right:1px solid #eee;
+  padding:0 20px 10px 0;
+  margin-top:5px;
+  text-transform:uppercase;
 }
-.post h1:hover {
-  margin-left:10px;
-  transition:.3s linear;
-  -o-transition:.3s linear;
-  -moz-transition:.3s linear;
-  -webkit-transition:.3s linear;
+.post-date-day-name {
+  font:300 25px Yanone Kaffeesatz;
+}
+.post-date-day-month-year {
+  font:italic 10px arial;
 }
 .post h1 {
-  font:Oswald;
-  font-size:90%;
-  margin:0;
-  height:40px;
-  padding:0px;
+  margin:0 0 5px;
+  font:300 33px Yanone Kaffeesatz;
   text-transform:uppercase;
-  letter-spacing:1px;
-  transition:.3s linear;
-  -o-transition:.3s linear;
-  -moz-transition:.3s linear;
-  -webkit-transition:.3s linear;
 }
-.post h1 a, .post h1 a:visited, .post h1 strong {
-  font-weight:300;
+.post-footer {
+  padding:5px 10px;
+  margin:0 0 5px;
+  background:#fbfbfb;
+  border:1px solid #f2f2f2;
+  margin-left:40px;
+}
+.post {
+  margin:0 0 1.5em;
+  line-height:1.6em;
+}
+.post-body {
+  margin:0 0 1.75em;
+  font:12px arial;
+  line-height:170%;
+  margin-left:40px;
 }
 .post img {
-  padding:0;
+  max-width:640px;
+  height:auto;
 }
-.post-footer-line-1, .post-footer-line-2, .post-footer-line-3, .post-footer, #sidebar-wrapper, h2.date-header, .sidebar, .date-post-top-wrapper {
-  display:none;
+.comments {
+  margin-left:40px;
 }
-
+#blog-pager {
+  margin-left:40px;
+}
+#related-posts {
+  float:center;
+  text-transform:none;
+  height:100%;
+  min-height:100%;
+  padding-top:5px;
+  margin-left:40px;
+}
+#related-posts h2 {
+  color:#555;
+  padding:5px;
+  margin:0 0 10px;
+  text-align:center;
+  background:#fbfbfb;
+  border-top:1px solid #eee;
+  font:300 17px Yanone Kaffeesatz;
+}
+#related-posts a {
+  color:#000;
+  overflow:hidden;
+  display:block;
+  width:80px;
+  height:155px;
+}
+#related-posts a:hover {
+  background:#fbfbfb;
+  color:#000;
+  overflow:hidden;
+}
+#related-posts a img {
+  transition:.3s linear;
+  -moz-transition:all .3s;
+  -webkit-transition:.3s linear;
+  box-shadow:none;
+  padding:4px;
+  padding-top:7px;
+}
+#related-posts a img:hover {
+  transition:.3s linear;
+  -moz-transition:all .3s;
+  -webkit-transition:.3s linear;
+  margin-bottom:5px;
+}
+#rptxt{
+  padding-top:5px;
+  width:68px;
+  height:65px;
+  margin:5px;
+  border-top:1px solid #ccc;
+  font:300 13px Yanone Kaffeesatz;
+  font-style:italic;
+}
