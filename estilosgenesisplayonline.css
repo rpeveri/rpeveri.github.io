@@ -585,51 +585,6 @@ Error Page
 }
 
 /* =============================
-Posts Thumbnail and Description
-============================= */
-.snips-image{
-  width:300px;
-  height:180px;
-  position:relative;
-  line-height:1.6em;
-  margin:0;
-  overflow:hidden;
-}
-.snips-image img{
-  top:0;
-  left:0;
-  border:0;
-  position:absolute;
-  min-height:180px;
-  max-width:300px;
-}
-.snips-image a{
-  display:block;
-  position:relative;
-  overflow:hidden;
-  height:180px;
-  width:300px;
-  color:#555;
-}
-.snips-image a:hover{
-  text-decoration:none;
-}
-.summary{
-  padding:10px 0;
-  margin:0 50px;
-  font:10px Arial, sans-serif;
-  border-bottom:1px solid #eee;
-  border-top:1px solid #eee;
-  color:#666;
-}
-.snips-header{
-  margin:25px 50px 10px;
-  font:300 12px oswald;
-  text-decoration:underlined;
-}
-
-
-/* =============================
 Middle and Footer
 ============================= */
 #middle-wrapper {
