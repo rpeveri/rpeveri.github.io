@@ -1,0 +1,1 @@
+document.write(snips_image_creator(&quot;<data:post.thumbnailUrl/>&quot;,&quot;<data:post.title/>&quot;));
