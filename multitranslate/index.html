@@ -4,19 +4,6 @@
 
   <title>Multiple and simple translator</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-
-<script>
-    // Verificar si la página se encuentra en un iframe
-    if (window.self !== window.top) {
-      window.top.location.href = window.self.location.href;
-    }
-
-    // Verificar si la página se está cargando desde otro sitio
-    var dominioPermitido = 'multipletranslator.blogspot.com'; // Reemplaza con tu dominio permitido
-    if (window.location.host !== dominioPermitido) {
-      window.location.href = 'https://google.com'; // Reemplaza con la página de error que desees mostrar
-    }
-  </script>
   
 <script>
     window.addEventListener('DOMContentLoaded', function() {
